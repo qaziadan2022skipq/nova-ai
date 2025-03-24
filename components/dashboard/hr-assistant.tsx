@@ -5,7 +5,7 @@ import { useEffect } from "react";
 const HRAssistant: React.FC = () => {
   useEffect(() => {
     const host = "https://labs.heygen.com";
-    const url = `${host}/guest/streaming-embed?share=eyJxdWFsaXR5IjoiaGlnaCIsImF2YXRhck5hbWUiOiJKdW5lX0hSX3B1YmxpYyIsInByZXZpZXdJ%0D%0AbWciOiJodHRwczovL2ZpbGVzMi5oZXlnZW4uYWkvYXZhdGFyL3YzLzc0NDQ3YTI3ODU5YTQ1NmM5%0D%0ANTVlMDFmMjFlZjE4MjE2XzQ1NjIwL3ByZXZpZXdfdGFsa18xLndlYnAiLCJuZWVkUmVtb3ZlQmFj%0D%0Aa2dyb3VuZCI6ZmFsc2UsImtub3dsZWRnZUJhc2VJZCI6IjcwNmFiMGQxNWY5ZDQ4YWE4OTVmYmZj%0D%0AN2RiYTQxYmEyIiwidXNlcm5hbWUiOiJkMzg2YWNkZGZmMTg0YzQyYjM1NWNhNjYzMTgxYjJiMSJ9&inIFrame=1`;
+    const url = `${host}/guest/streaming-embed?share=eyJxdWFsaXR5IjoiaGlnaCIsImF2YXRhck5hbWUiOiJEZXh0ZXJfTGF3eWVyX1NpdHRpbmdfcHVi%0D%0AbGljIiwicHJldmlld0ltZyI6Imh0dHBzOi8vZmlsZXMyLmhleWdlbi5haS9hdmF0YXIvdjMvZTIw%0D%0AYWMwYzkwMjE4NGZmNzkzZTc1YWU0ZTEzOWI3ZGNfNDU2MDAvcHJldmlld190YXJnZXQud2VicCIs%0D%0AIm5lZWRSZW1vdmVCYWNrZ3JvdW5kIjpmYWxzZSwia25vd2xlZGdlQmFzZUlkIjoiYTJmNWI3MmRi%0D%0AOGZhNDlmNGFiNDg5MjY0N2JlZjAwYzYiLCJ1c2VybmFtZSI6ImQzODZhY2RkZmYxODRjNDJiMzU1%0D%0AY2E2NjMxODFiMmIxIn0%3D&inIFrame=1`;
     const clientWidth = document.body.clientWidth;
 
     const wrapDiv = document.createElement("div");
