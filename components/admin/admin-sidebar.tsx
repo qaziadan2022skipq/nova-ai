@@ -24,7 +24,7 @@ const AdminSidebar = () => {
             width={120}
             height={120}
             alt="mainlogo"
-            className="rounded-full"
+            // className="rounded-full"
           />
           <h1 className="text-white">Admin Panel</h1>
         </Link>
