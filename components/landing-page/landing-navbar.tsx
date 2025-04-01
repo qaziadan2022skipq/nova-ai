@@ -4,6 +4,7 @@ import { Menu, X } from "lucide-react";
 import { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
+import { navItems } from "@/constants/landing/landing-constants";
 
 const LandingNavbar = () => {
   const [mobileDrawerOpen, setMobileDrawerOpen] = useState(false);
@@ -21,6 +22,14 @@ const LandingNavbar = () => {
             <Image src="/nav-logo.jpg" width={100} height={40} alt="HR Nova AI Logo" />
           </div>
         </Link>
+
+        <ul className="hidden lg:flex ml-14 space-x-8 text-gray-600 tracking-wider text-sm font-bold mx-12">
+            {navItems.map((item, index) => (
+              <li key={index}>
+                <a href={item.href}>{item.label}</a>
+              </li>
+            ))}
+          </ul>
         
         {/* Desktop Menu */}
         <div className="hidden lg:flex items-center space-x-8">
