@@ -10,9 +10,21 @@ export const adminSidebarRoutes = [
     color: "text-[#CC302F]",
   },
   {
-    label: "Nova AI Assistant",
+    label: "Real Estate Agent Trainer",
+    icon: GoPerson,
+    href: "/admin/real-estate-agent",
+    color: "text-[#CC302F]",
+  },
+  {
+    label: "HR Assistant",
     icon: GoPerson,
     href: "/admin/hr-assistant",
+    color: "text-[#CC302F]",
+  },
+  {
+    label: "Auditor Assistant",
+    icon: GoPerson,
+    href: "/admin/auditor-assistant",
     color: "text-[#CC302F]",
   },
   {

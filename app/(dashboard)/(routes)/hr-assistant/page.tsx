@@ -6,7 +6,7 @@ import React from "react";
 const HRAssistantPage = () => {
   return (
     <div>
-      <Heading title="Nova AI Assistant" description="" />
+      <Heading title="HR Assistant" description="" />
       <HRAssistant />
     </div>
   );
