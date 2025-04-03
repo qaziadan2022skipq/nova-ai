@@ -34,10 +34,10 @@ const NovaAIIndustries = () => {
   return (
     <div className="relative w-full flex flex-col items-center text-center px-4 sm:px-8 md:px-16 lg:px-32 py-16 bg-black text-white">
       <h3 className="text-sm text-[#01E0FF] uppercase font-semibold mb-2">
-        Nova AI – Smarter Training, Real Results.
+        Iron Halo AI – Smarter Training, Real Results.
       </h3>
       <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold leading-tight mb-12">
-        How Nova AI Works for Your Industry
+        How Iron Halo AI Works for Your Industry
       </h2>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 w-full">
         {industries.map((industry, index) => (

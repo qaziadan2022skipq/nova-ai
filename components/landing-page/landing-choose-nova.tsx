@@ -28,7 +28,7 @@ const WhyChooseNova = () => {
         innovative solution
       </h3>
       <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold leading-tight mb-12">
-        Why Choose Nova AI?
+        Why Choose Iron Halo AI?
       </h2>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-8 w-full max-w-6xl">
         {features.map((feature, index) => (

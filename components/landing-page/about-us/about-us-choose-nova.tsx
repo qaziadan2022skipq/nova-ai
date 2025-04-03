@@ -1,6 +1,7 @@
 "use client";
 
 import Image from "next/image";
+import { redirect } from "next/navigation";
 import React from "react";
 import { FaCircle } from "react-icons/fa";
 
@@ -16,7 +17,7 @@ const AboutUsChooseNova = () => {
           Interactive Video Library for Employee Education
         </h2>
         <p className="text-gray-400 text-sm sm:text-base">
-          Nova AI isn’t just software—it’s a strategic training partner. Whether you’re in real estate, manufacturing, education, healthcare, or retail—we build intelligent learning systems that grow with you. Our clients use Nova AI to:
+          Iron Halo AI isn’t just software—it’s a strategic training partner. Whether you’re in real estate, manufacturing, education, healthcare, or retail—we build intelligent learning systems that grow with you. Our clients use Iron Halo AI to:
         </p>
         <ul className="space-y-3 text-gray-400 text-sm sm:text-base">
           <li className="flex items-center">
@@ -32,7 +33,10 @@ const AboutUsChooseNova = () => {
             <FaCircle className="text-[#01E0FF] text-xs mr-2" /> Create lifelong learning cultures that fuel performance
           </li>
         </ul>
-        <button className="mt-6 px-6 py-2 bg-[#01E0FF] text-black font-bold rounded-md hover:bg-[#00bcd4]">
+        <button
+        className="mt-6 px-6 py-2 bg-[#01E0FF] text-black font-bold rounded-md hover:bg-[#00bcd4]"
+        onClick={() => redirect("/#contact")}
+        >
           Contact Us
         </button>
       </div>
@@ -40,11 +44,11 @@ const AboutUsChooseNova = () => {
       {/* Right Section - Image */}
       <div className="w-full lg:w-1/2 flex justify-center mt-10 lg:mt-0">
         <Image 
-          src="/landing/keybenefit.png" // Update with correct image path
-          width={500} 
-          height={300} 
-          alt="Nova AI Logo"
-          className="w-full max-w-md lg:max-w-lg object-contain border-4 border-[#01E0FF] rounded-3xl"
+          src="/nav-logo.png" // Update with correct image path
+          width={400} 
+          height={400} 
+          alt="Iron Halo AI Logo"
+          className="object-contain border-4 border-[#01E0FF] rounded-3xl"
         />
       </div>
     </div>

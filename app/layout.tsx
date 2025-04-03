@@ -13,8 +13,8 @@ const geistMono = Outfit({
 });
 
 export const metadata: Metadata = {
-  title: "Nova AI",
-  description: "Developed by Qazi Adam",
+  title: "Iron Halo AI",
+  description: "Developed by Qazi Adan",
 };
 
 export default function RootLayout({

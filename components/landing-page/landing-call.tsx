@@ -23,7 +23,7 @@ const AICallLine = () => {
       </p>
       
       {/* Contact Button */}
-      <a href="/contact" className="bg-[#01E0FF] text-black font-semibold py-2 px-6 rounded-lg hover:bg-[#00c4e4]">
+      <a href="/#contact" className="bg-[#01E0FF] text-black font-semibold py-2 px-6 rounded-lg hover:bg-[#00c4e4]">
         Contact Us
       </a>
     </div>

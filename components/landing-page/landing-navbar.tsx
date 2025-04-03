@@ -19,7 +19,7 @@ const LandingNavbar = () => {
         {/* Logo */}
         <Link href={"/"}>
           <div className="flex items-center">
-            <Image src="/nav-logo.jpg" width={100} height={40} alt="HR Nova AI Logo" />
+            <Image src="/nav-logo.png" width={100} height={40} alt="HR Nova AI Logo" />
           </div>
         </Link>
 

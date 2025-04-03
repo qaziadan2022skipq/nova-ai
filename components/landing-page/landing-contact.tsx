@@ -140,7 +140,7 @@ export default function ContactForm() {
       </div>
       <div className="flex items-center justify-center mx-2 sm:mx-4 md:mx-6 lg:mx-12 border-t border-gray-500">
         <p className="text-center font-extralight text-[#FFFFFF] py-4 text-xs sm:text-sm">
-          &copy;2025 Nova AI. All rights reserved.
+          &copy;2025 Iron Halo AI. All rights reserved.
         </p>
       </div>
     </div>

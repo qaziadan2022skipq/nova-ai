@@ -9,7 +9,7 @@ const LandingHero = () => {
       {/* Text Content Section */}
       <div className="flex flex-col max-w-lg animate-[flyInleft_0.6s_ease-in-out_0.25s_1]">
         <h1 className="text-xl sm:text-3xl md:text-4xl font-extrabold leading-tight">
-          Nova AI – Smarter Training <br className="hidden sm:block" /> with
+          Iron Halo AI – Smarter Training <br className="hidden sm:block" /> with
           Real-World Simulation
         </h1>
         <p className="mt-4 text-sm sm:text-lg font-light text-gray-300">

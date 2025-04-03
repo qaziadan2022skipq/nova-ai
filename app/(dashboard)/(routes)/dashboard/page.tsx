@@ -11,12 +11,12 @@ const Dashboard = () => {
   return (
     <>
       <div className="mt-2 mb-8 flex flex-col items-center space-y-2">
-        <Image src={"/nav-logo.jpg"} width={300} height={300} alt="main" className="rounded-lg drop-shadow-lg" />
+        <Image src={"/nav-logo.png"} width={300} height={300} alt="main" className="rounded-lg drop-shadow-lg" />
         <h2 className="text-2xl md:text-4xl font-bold text-center">
           Welcome to
         </h2>
         <p className="text-muted-foreground font-light text-small md:text-lg text-center">
-          Nova AI
+          Iron Halo AI
         </p>
       </div>
       <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 gap-4 px-4 md:px-32 overflow-scroll lg:overflow-hidden">

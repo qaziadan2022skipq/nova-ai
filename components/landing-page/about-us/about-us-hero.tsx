@@ -13,9 +13,9 @@ const AboutUsHero = () => {
             Where Intelligent Training Meets <br /> Real-World Simulation
           </h2>
           <p className="text-gray-400 text-sm sm:text-base">
-            At Nova AI, we believe the future of training is not just
+            At Iron Halo AI, we believe the future of training is not just
             digital—it's intelligent. Founded by veterans and built on the
-            values of service, precision, and adaptability, Nova AI is
+            values of service, precision, and adaptability, Iron Halo AI is
             transforming how businesses, schools, and professionals train and
             grow. Our cutting-edge platform blends AI-powered avatars, immersive
             simulations, and personalized learning to create unforgettable

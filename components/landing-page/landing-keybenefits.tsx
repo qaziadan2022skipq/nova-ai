@@ -36,11 +36,11 @@ const KeyBenefits = () => {
       {/* Right Section - Image */}
       <div className="w-full md:w-1/2 flex justify-center mt-10 md:mt-0">
         <Image 
-          src="/landing/keybenefit.png" // Update with correct image path
-          width={500} 
-          height={300} 
+          src="/nav-logo.png" // Update with correct image path
+          width={400} 
+          height={400} 
           alt="Nova AI Logo"
-          className="w-full max-w-md lg:max-w-lg object-contain border-4 border-[#01E0FF] rounded-3xl"
+          className="object-contain border-4 border-[#01E0FF] rounded-3xl"
         />
       </div>
     </div>

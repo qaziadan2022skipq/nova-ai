@@ -13,9 +13,9 @@ const BuildTogetherSection = () => {
           Let's Build Together
         </h2>
         <p className="text-gray-400 text-sm sm:text-base max-w-3xl">
-          Nova AI isn’t just software—it’s a strategic training partner. Whether
+          Iron Halo AI isn’t just software—it’s a strategic training partner. Whether
           you’re in real estate, manufacturing, or education, training isn’t a
-          checkbox—it’s a growth strategy. Let Nova AI help you design a
+          checkbox—it’s a growth strategy. Let Iron Halo AI help you design a
           smarter, faster, and more engaging way to prepare your people for
           success.
         </p>
@@ -23,7 +23,7 @@ const BuildTogetherSection = () => {
           Ready to experience what intelligent training can do for your team?
           Contact Us Now to get your personalized demo and pricing breakdown. We
           build intelligent learning systems that grow with you. Our clients use
-          Nova AI to:
+          Iron Halo AI to:
         </p>
         <button className="mt-6 px-6 py-3 bg-[#01E0FF] text-black font-semibold rounded-lg shadow-md hover:bg-[#00C4E5]">
           Contact Us
@@ -31,7 +31,7 @@ const BuildTogetherSection = () => {
       </div>
       <div className="flex items-center justify-center mx-2 sm:mx-4 md:mx-6 lg:mx-12 border-t border-gray-500">
         <p className="text-center font-extralight text-[#FFFFFF] py-4 text-xs sm:text-sm">
-          &copy;2025 Nova AI. All rights reserved.
+          &copy;2025 Iron Halo AI. All rights reserved.
         </p>
       </div>
     </div>

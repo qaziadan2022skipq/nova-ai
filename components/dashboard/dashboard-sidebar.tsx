@@ -19,7 +19,7 @@ const Sidebar = () => {
           className="flex flex-col justify-center items-center mt-2 mb-2 text-xl font-bold"
         >
           <Image
-            src={"/nav-logo.jpg"}
+            src={"/nav-logo.png"}
             width={120}
             height={120}
             alt="mainlogo"
